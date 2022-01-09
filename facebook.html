@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <title>Document</title>
+</head>
+<style>
+    
+    #email{
+        position:absolute;
+        left:5%;
+        top:30%;
+
+    }
+    #pass{
+        position:absolute;
+        left:55%;
+        top:-6%;
+            
+    }
+    .button{
+        position:absolute;
+        background-color: #677dad;
+        color:white;
+        left:85%;
+        top:28%;
+    }
+    body{
+        background-color:black;
+    }
+   .anchor{
+    position:absolute;
+    left:55%;
+    top:85%;
+   }
+    .cont{
+        background-color:#3a5795;
+        width:600px;
+        height:100px; 
+        position: relative;
+        left:15%;
+    }
+    #sign{
+        position:absolute;
+        left:5%;
+        top:2%;
+    }
+    #form{
+        position:absolute;
+        background-color:#e4e7f1;
+        left:18.1%;
+        top:20%;
+        width:600px;
+        height:600px;
+    }   
+    .para{
+        position:absolute;
+        top:8%;
+        left:6%;
+    }
+    .first{
+        position:absolute;
+        top:15%;
+        left:6%;
+    }
+    .second{
+        position:absolute;
+        top:15%;
+        left:33%;
+    }
+    .third{
+        position:absolute;
+        top:23%;
+        left:6%;
+    }
+    .fourth{
+        position:absolute;
+        top:30%;
+        left:6%;
+    }
+    .fifth{
+        position:absolute;
+        top:38%;
+        left:6%;
+    }
+    #month{
+        position:absolute;
+        top:45%;
+        left:6%;
+    }
+    #check1{
+        position:absolute;
+        top:60%;
+        left:9%;
+    }
+    #check2{
+        position:absolute;
+        top:60%;
+        left:25%;
+    }
+    .last{
+        position:absolute;
+        top:65%;
+        left:10%;
+    }
+    .signup{
+        position:absolute;
+        top:75%;
+        left:10%;
+        padding-left:5%;
+        padding-right:5%;
+    }
+</style>
+<body>
+    
+         <div class="cont m-5" >
+            <div  class="ms-5" id=" email">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label><br>
+                <input type="email" class="form-controlS col-sm-5" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div> 
+
+            
+        <div class="mb-3 col" id="pass">
+                   <label for="inputPassword" class="col-sm-4 col-form-label ">Password</label><br>
+        <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword">
+        </div>
+            <a href="#" style="font-size: small;">Forgot My password?</a>
+            </div>
+            <button type="button" class="btn button">Login</button>
+         </div>
+        
+
+         </div>
+
+          
+         <form id="form">
+            <div class="display-5" id="sign" style="font-size:30px;">Sign Up</div><br><br><br>
+            <p class="para">
+                Its free and always will be.
+            </p>
+  
+              <input type="text" class="form-controlS first col-sm-3 " id="exampleFormControlInput1" placeholder=" First name">
+              <input type="text" class="form-controlS second col-sm-3" id="exampleFormControlInput1" placeholder=" Last name"><br><br>
+              <input type="Number" class="form-controlS third col-sm-6" id="exampleFormControlInput1" placeholder="Mobile Number"><br><br>
+              <input type="Number" class="form-controlS fourth col-sm-6" id="exampleFormControlInput1" placeholder="Re-enter mobile number"><br><br> 
+              <input type="text" class="form-controlS  fifth col-sm-6 " id="exampleFormControlInput1" placeholder="Password">
+              <br><br><br><br>
+              <div class="btn-group" id="month">
+                  <button type="button" id="btnGroup" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                      month
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="btnGroup">
+                      <li><a class="dropdown-item" href="#">January</a></li>
+                      <li><a class="dropdown-item" href="#">February</a></li>
+                  </ul>
+  
+                  <div class="btn-group">
+                      <button type="button" id="btnGroup" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                          date
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="btnGroup">
+                          <li><a class="dropdown-item" href="#">20</a></li>
+                          <li><a class="dropdown-item" href="#">21</a></li>
+                      </ul>
+               <br><br>
+                  <div class="btn-group">
+                      <button type="button" id="btnGroup" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                          year
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="btnGroup">
+                          <li><a class="dropdown-item" href="#">1999</a></li>
+                          <li><a class="dropdown-item" href="#">2000</a></li>
+                      </ul>&nbsp;&nbsp;
+                      <div style="color:#8d9dc1; font-size: small;">why would i need to provide my<br> birthday?</div>
+                  </div>
+              </div>
+              </div><br><br>
+          <div class="form-check" id="check1">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    female
+                  </label>
+                </div>
+                <div class="form-check" id="check2">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    male
+                  </label>
+                </div>
+                  
+             <p style="font-size: small;" class="last">By Clicking Sign up,you agree to our <a style="color:blue;">Terms</a> and that you have<br>
+              read our <a style="color:blue;">Data Policy</a>,including our <a href="#" style="color:blue; text-decoration:none;">Cookie use</a> </p>
+             
+              <button type="button" class="btn btn-success btn-lg signup">Sign Up</button>
+  
+
+
+         </form>
+         
+          
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   
+</body>
+</html>
